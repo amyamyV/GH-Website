@@ -1,0 +1,18 @@
+body {
+    font-family: Trebuchet MS;
+    font-size: 20px;
+    background-color: rgba(251, 225, 164, 0.6);
+    background-size: cover;
+
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(251, 225, 164);
+    text-align: left;
+    background-color: rgb(178, 29, 3);
+    background-position: top;
+    background-repeat: repeat;
+
+}

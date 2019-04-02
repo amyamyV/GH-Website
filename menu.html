@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ 	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width", initial-scale=1, shrink-to-fit=yes>
+
+ 	<title>Menu</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="icon" href="takeoutIcon.ico">
+
+	<style>
+
+    /*#heading{ red gradient
+        background: rgb(179,4,4);
+        background: radial-gradient(circle, rgba(94, 3, 3, 1) 24%, rgba(36,27,27,1)  84%);
+    }*/
+
+	.row {
+		margin-left: auto;
+  		margin-right: auto;
+	}
+
+	button {
+        border-radius: 0% 100% 32% 68% / 0% 79% 21% 100%;
+        box-shadow: inset 0 -0.6em 1em -0.35em rgba(0,0,0,0.17),inset 0 0.6em 2em -0.3em rgba(255,255,255,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
+		font-size: 2.3vw;
+		letter-spacing: .6vw;
+		text-shadow: -.3px -.3px 0 rgb(76, 61, 61);
+        padding-top: 3vw;
+        padding-bottom: 4vw;
+        color: rgb(239, 197, 30);
+        background-color: rgb(71, 69, 81);
+        border: none;
+        outline: none;
+    }
+
+    button:hover  {
+        color: rgb(99, 98, 94);
+    }
+
+    button:focus {
+        border: none;
+        outline: none;
+    }
+
+
+	.card {
+        text-align: center;
+		/*background-color: rgba(79,83,115,1);
+        background: linear-gradient(0deg, rgba(1,10,34,1) -20%, rgba(38,34,46,1) 1%, rgba(79,83,115,1) 52%);*/
+		font-size: 1.2vw;
+		line-height: 200%;
+		color: rgb(234, 229, 218);
+		text-transform: uppercase;
+
+	}
+
+	.description {
+		font-size: .8vw;
+		line-height: 150%;
+	}
+
+	</style>
+
+<head>
+	<title> Menu </title>
+</head>
+
+<body class= "bg-dark" style="font-family: Georgia; font-size: 2vw; color: rgb(239, 227, 213)">
+	<div class="text-center">
+
+		<section>
+			<div id="heading" class="text-center" style="padding-top: 2vw; font-family: cursive">
+				<div style="padding-bottom: 2vw; color: rgb(239, 197, 30); "><span style="font-size: 4vw">GOLDEN HOUSE</span> <br> Chinese Restaurant</div>
+			</div>
+		</section>
+		<hr>
+
+		Call to order at <a href="tel: 410-628-0808">410-628-0808</a>
+		<br>
+		Dine-in prices may differ
+		<br>
+		*hot & spicy
+	</div>
+
+	<hr>
+
+<div style="margin: 10vw; margin-top: 1vw;">
+
+	<div class="row" style="">
+
+		<button type="button" data-toggle="collapse" id=""  class="col-sm text-center" data-target="#appExpand" aria-expanded="true" aria-controls="appExpand" aria-pressed="true">Appetizers</button>
+		<div class="collapse multi-collapse w-100 mx-4" id="appExpand">
+			<div class="card card-body w-100 bg-dark">
+				<div class="row">
+					<div class="column col-lg">
+						Spring Rolls (2)________________$3.50 <br>
+						Vegetable Egg Rolls (2)_________$3.50 <br>
+						Fried Chicken Wings (12)________$10.95 <br>
+						Shrimp Tempura (5) _____________$6.95 <br>
+						Shrimp Toast (8) _______________$6.95 <br>
+						Barbecued Spareribs (4)_________$7.50 <br>
+						Edamame (Steamed Beans)_______$4.95
+					</div>
+
+					<div class="column col-lg">
+						Egg Rolls (2) __________________$3.95 <br>
+						Fried Crab Meat Wonton (6)______$6.95 <br>
+						Cold Noodles With Sesame Sauce_$4.95 <br>
+						Steamed or Fried Dumplings (6)__$5.95 <br>
+						Szechuan Beef Sticks (4)_________$7.50 <br>
+						Pu Pu Tray (For 2)______________$16.95 <br>
+						<p class="description">
+                            An assortment of
+							spring rolls, shrimp toast, shrimp tempura,
+							barbecued spareribs, and Szechuan beef sticks
+                        </p>
+
+					</div>
+
+
+				</div>
+
+
+			</div>
+		</div>
+
+
+		<button type="button" data-toggle="collapse" id=""  class="col-sm text-center" data-target="#soupExpand" aria-expanded="true" aria-controls="soupExpand" aria-pressed="true">Soups</button>
+		<div class="collapse multi-collapse w-100 mx-4" id="soupExpand">
+			<div class="card card-body w-100 bg-dark">
+				<div class="row">
+					<div class="column col-lg">
+					Wonton <br>
+					<p class="description">
+					Pint_______________________$1.75 <br>
+					Quart_____________________$3.25 <br>
+					</p>
+
+					Hot and Sour  <br>
+					<p class="description">
+					Pint_______________________$1.95 <br>
+					Quart_____________________$3.25 <br>
+					</p>
+
+					House Special (For 2)________$6.95
+					</div>
+					<div class="column col-lg">
+					Egg Drop <br>
+					<p class="description">
+					Pint________________________$1.75 <br>
+					Quart______________________$3.25 <br>
+					</p>
+
+					Sweet Corn Chicken (For 2)____$5.95 <br>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+
+        </div>
+
+
+
+    	<div class="row" style="">
+
+		<button type="button" data-toggle="collapse" id=""  class="col-sm text-center" data-target="#ordinariesExpand" aria-expanded="true" aria-controls="ordinariesExpand" aria-pressed="true">Extra Ordinaries</button>
+		<div class="collapse multi-collapse w-100 mx-4" id="ordinariesExpand">
+			<div class="card card-body w-100 bg-dark">
+				<div class="text-center">Served with a pint of white rice <br></div>
+				<div class="row">
+					<div class="column col-lg">
+
+						Seafood Combination_________$18.95 <br>
+						<p class="description">Jumbo shrimp, scallops, and lobster meat sautéed with vegetables in brown sauce
+						</p>
+						*Crispy Beef__________________$15.95 <br>
+						<p class="description">Crispy shredded beef sautéed with carrots, celery in chef's special tangy sauce
+						</p>
+
+						*Shrimp and Scallop Delight____$15.95 <br>
+						<p class="description">Shrimps and scallops sautéed with water chestnuts, bamboo shoots and Chinese lichen in a spicy garlic sauce
+						</p>
+						*Orange Flavored Beef_________$13.95 <br>
+						<p class="description">Beef sautéed with orange flavor in rich and spicy sauce
+						</p>
+
+						*Tangy Neptune Combo_________$15.95 <br>
+						<p class="description">Slices of fillet mignon and scallops sautéed in hot brown sauce and served in a bed of vegetables
+						</p>
+						*Firecracker Prawns__________$17.95 <br>
+						<p class="description">Deep fried crispy large shrimp marinated in a special Chinese red, spicy sour sauce
+						</p>
+
+						Sesame Chicken_______________$11.95 <br>
+						<p class="description">Chunks of chicken sautéed in rich sauce topped with sesame seeds (white meat .50 extra)
+						</p>
+						</div>
+
+					<div class="column col-lg">
+
+
+						Filet Grouper_______________$13.95 <br>
+						<p class="description">Cantonese style or tomato red sauce, both with snow peas and carrots
+						</p>
+						Happy Family________________$16.95 <br>
+						<p class="description">Jumbo shrimp, scallops, chicken, roast pork, and beef sautéed with broccoli, straw mushrooms, snow peas, and carrot in brown sauce
+						</p>
+						Fancy Combo_________________$15.95 <br>
+						<p class="description">Slices of fillet mignon, shrimp, chicken and roasted pork sautéed in brown sauce
+						</p>
+
+						Shrimp and Chicken Combo_____$12.95 <br>
+						<p class="description">Chicken, shrimp, green peppers and straw mushrooms in chef's brown sauce
+						</p>
+						Triple Delight________________$15.95 <br>
+						<p class="description">lices of fillet mignon, scallops, and shrimp sautéed in brown sauce and served in a bed of vegetables
+						</p>
+
+						*Orange Flavored Chicken______$11.95 <br>
+						<p class="description">Chunks of chicken sautéed with orange flavors in rich and spicy sauce (white meat .50 extra)
+						</p>
+						*General Tso's Chicken_________$11.95 <br>
+						<p class="description">Chunks of crispy chicken sautéed in a traditional mandarin (white meat .50 extra)
+						</p>
+					</div>
+
+				</div>
+
+
+
+
+
+
+			</div>
+		</div>
+
+		<button type="button" data-toggle="collapse" id=""  class="col-sm text-center" data-target="#fowlExpand" aria-expanded="true" aria-controls="fowlExpand" aria-pressed="true">Fowl (Chicken)</button>
+		<div class="collapse multi-collapse w-100 mx-4" id="fowlExpand">
+			<div class="card card-body w-100 bg-dark">
+				<div class="text-center">Served with a pint of white rice <br></div>
+					<div class="row">
+						<div class="column col-lg">
+							*Hunan Chicken____________$10.50 <br>
+							<p class="description">Sliced chicken with fresh broccoli, straw mushrooms, and bamboo shoots in a hot brown sauce
+							</p>
+							*Curry Chicken____________$10.50 <br>
+							<p class="description">Sliced chicken stir fried with carrots and onion in our hot yellow curry sauce
+							</p>
+
+							*Sha Cha Chicken__________$10.50 <br>
+							<p class="description">Chicken with broccoli, green peppers, carrots, and bamboo shoots sautéed in a sha cha sauce
+							</p>
+
+							Moo Goo Gai Pan___________$10.50 <br>
+							<p class="description">Sliced chicken with snow peas, broccoli, bamboo shoots, water chestnuts, and mushrooms
+							</p>
+							Sweet and Sour Chicken____$10.50 <br>
+
+
+
+
+							Chicken Vegetable Deluxe__$10.50 <br>
+
+
+							Chicken with Snow Peas____$10.50 <br>
+
+							Chicken with Asparagus____$13.95
+
+
+
+
+
+						</div>
+						<div class="column col-lg">
+
+							*Kung Pao Chicken_________$10.50 <br>
+							<p class="description">Diamond shaped chicken sautéed with peanuts in a spicy brown sauce and steamed broccoli
+							</p>
+							*Szechuan Chicken_________$10.50 <br>
+							<p class="description">Shredded chicken sautéed with bean sprouts, carrots, and celery in a spicy Szechuan sauce
+							</p>
+							*Chicken with Garlic Sauce__$10.50 <br>
+							<p class="description">Chicken with lichen, bamboo shoots, and water chestnuts in a tangy garlic sauce
+							</p>
+
+							Moo Shu Chicken___________$10.50 <br>
+							<p class="description">Shredded chicken with cabbage, mushrooms, and egg; served with four homemade pancakes
+							</p>
+							Chicken with Cashews______$10.50 <br>
+							<p class="description">Diced chicken, cashew, green peppers, carrots, and water chestnuts in a chef's brown sauce
+							</p>
+							Chicken with String Beans__$10.50 <br>
+
+
+							Chicken with Broccoli______$10.50 <br>
+
+							Golden Chicken____________$14.95 <br>
+							<p class="description">Low cholesterol! Chicken filet wrapped in a thin layer of egg, served with golden lemon sauce
+							</p>
+
+						</div>
+
+					</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row" style="">
+
+		<button type="button" data-toggle="collapse" id=""  class="col-sm text-center" data-target="#beefExpand" aria-expanded="true" aria-controls="beefExpand" aria-pressed="true">Beef</button>
+		<div class="collapse multi-collapse w-100 mx-4" id="beefExpand">
+			<div class="card card-body w-100 bg-dark">
+				<div class="text-center">Served with a pint of white rice <br></div>
+				<div class="row">
+					<div class="column col-lg">
+						Beef Szechuan Style__________$11.50 <br>
+						<p class="description">Shredded beef, carrots, celery, and bean sprouts in a tangy Szechuan sauce
+						</p>
+						Hunan Beef__________________$11.50 <br>
+						<p class="description">Beef with fresh broccoli, straw mushrooms, bamboo shoots in a hot brown sauce
+						</p>
+						Kung Pao Beef_______________$11.50 <br>
+
+						Beef with Broccoli___________$11.50 <br>
+
+						Beef with Oyster Sauce_______$11.50 <br>
+						<p class="description">Beef with baby corn, pea pods, water chestnuts, carrots, and bamboo shoots in a rich oyster sauce
+						</p>
+						Beef with Snow Peas_________$11.50
+
+
+					</div>
+					<div class="column col-lg">
+
+						Beef with Garlic Sauce_______$11.50 <br>
+						<p class="description">Beef with mushrooms, water chestnuts, bamboo shoots in a spicy garlic sauce
+						</p>
+						Sha Cha Beef________________$11.50 <br>
+						<p class="description">Sliced beef with broccoli, green peppers, carrots, and bamboo shoots sautéed in a sha cha sauce
+						</p>
+						Beef Vegetable Deluxe_______$11.50 <br>
+
+						Mongolian Beef_____________$11.50 <br>
+						<p class="description">Sliced beef sautéed with scallions and onions
+						</p>
+						Pepper Steak and Onion______$11.50 <br>
+
+						Beef with Asparagus________$14.95 <br>
+
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+
+		<button type="button" data-toggle="collapse" id=""  class="col-sm text-center" data-target="#porkExpand" aria-expanded="true" aria-controls="porkExpand" aria-pressed="true">Pork</button>
+		<div class="collapse multi-collapse w-100 mx-4" id="porkExpand">
+			<div class="card card-body w-100 bg-dark">
+				<div class="text-center">Served with a pint of white rice <br></div>
+				<div class="row">
+					<div class="column col-lg">
+
+						*Hunan Pork________________$10.50 <br>
+
+						*Szechuan Pork_____________$10.50 <br>
+
+						*Double Cooked Pork________$10.50 <br>
+						<p class="description">Sliced roasted pork sautéed with cabbage, green peppers, and carrots in a chef's special sauce
+						</p>
+						Sweet and Sour Pork________$10.50 <br>
+
+						Pork with Snow Peas________$10.50 <br>
+
+						Pork with Asparagus________$13.95
+
+
+					</div>
+					<div class="column col-lg">
+
+						*Pork with Garlic Sauce_____$10.50 <br>
+						<p class="description">Pork with mushrooms, water chestnuts, and bamboo shoots in a spicy garlic sauce
+						</p>
+						*Sha Cha Pork_____________$10.50 <br>
+						<p class="description">Roasted pork with broccoli, green peppers, carrots, and bamboo shoots sautéed in a Sha Cha sauce
+						</p>
+						Pork Vegetable Deluxe____$10.50 <br>
+
+
+						Moo Shu Pork_____________$10.50 <br>
+						<p class="description">Shredded pork sauteed with cabbage and mushrooms; served with four homemade pancakes
+						</p>
+						Pork with String Beans____$10.50 <br>
+
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row" style="">
+
+		<button type="button" data-toggle="collapse" id=""  class="col-sm text-center" data-target="#seafoodExpand" aria-expanded="true" aria-controls="seafoodExpand" aria-pressed="true">Seafood</button>
+		<div class="collapse multi-collapse w-100 mx-4" id="seafoodExpand">
+			<div class="card card-body w-100 bg-dark">
+				<div class="text-center">Served with a pint of white rice <br></div>
+				<div class="row">
+					<div class="column col-lg">
+
+						*Hunan Shrimp______________$12.50 <br>
+						<p class="description">Hot! Jumbo shrimp with fresh broccoli, bamboo shoots, and mushrooms in a chef's hot sauce
+						</p>
+						*Kung Pao Shrimp____________$12.50 <br>
+						<p class="description">Shrimp sautéed with crunchy peanuts in a hot pepper sauce and served with steamed broccoli
+						</p>
+						*Shrimp with Hot Sauce______$12.50 <br>
+						<p class="description">A plate of shrimp marinated with onion in a red delicious sour & spicy sauce
+						</p>
+						Shrimp Vegetable Deluxe____$12.50 <br>
+
+						Shrimp with Lobster Sauce___$12.50 <br>
+
+						Shrimp with Snow Peas_______$12.50 <br>
+
+						*Hunan Scallop_____________$13.95 <br>
+						<p class="description">Large scallops sautéed with fresh broccoli, straw mushrooms, and bamboo shoots in Hunan sauce
+						</p>
+						Scallop Vegetable Deluxe___$13.95 <br>
+
+						Chow Shai Shein____________$13.95 <br>
+						<p class="description">Combination of shrimp, chicken, and roast pork with mixed Chinese vegetables in a tasty brown sauce
+						</p>
+						Crispy Shrimp with Walnuts__$16.95 <br>
+						<p class="description">Jumbo shrimp with walnut in a mayonnaise sauce and steamed broccoli
+						</p>
+
+
+
+
+					</div>
+					<div class="column col-lg">
+
+						*Szechuan Shrimp___________$12.50 <br>
+						<p class="description">Shrimp with shredded carrots, celery, bean sprouts in a spicy Szechuan sauce
+						</p>
+
+						*Shrimp with Garlic Sauce___$12.50 <br>
+						<p class="description">Shrimp with bamboo shoots, lichen, and water chestnuts in a tangy garlic sauce
+						</p>
+						*Curry Shrimp______________$12.50 <br>
+						<p class="description">Shrimp with carrots and onions in our spicy yellow curry sauce
+						</p>
+						Sweet and Sour Shrimp______$12.50 <br>
+
+
+						Shrimp with Cashews________$12.50 <br>
+						<p class="description">Shrimp, cashews, green peppers, carrots, and water chestnuts in a chef's brown sauce
+						</p>
+						*Shrimp with Black Bean Sauce $12.50 <br>
+						<p class="description">Hot and authentic! Jumbo shrimp sautéed with green peppers and onions with black bean sauce
+						</p>
+						*Scallop in Garlic Sauce_____$13.95 <br>
+						<p class="description">Sea scallops with lichen, bamboo shoots, and water chestnuts in tangy garlic sauce
+						</p>
+
+						Scallop in Oyster Sauce_____$13.95 <br>
+						<p class="description">Sea scallops with baby corn, snow peas, water chestnuts, carrots, and bamboo shoots in oyster sauce
+						</p>
+						Shrimp with Asparagus______$15.95 <br>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+
+		<button type="button" data-toggle="collapse" id=""  class="col-sm text-center" data-target="#vegetablesExpand" aria-expanded="true" aria-controls="vegetablesExpand" aria-pressed="true">Vegetables</button>
+		<div class="collapse multi-collapse w-100 mx-4" id="vegetablesExpand">
+			<div class="card card-body w-100 bg-dark">
+				<div class="text-center">Served with a pint of white rice <br></div>
+				<div class="row">
+					<div class="column col-lg">
+
+						Sautéed Mixed Vegetables___$8.95 <br>
+
+						Moo Shu Vegetables_________$8.95 <br>
+						<p class="description">Shredded cabbage, bamboo shoots, lichen, and egg with four homemade pancakes
+						</p>
+						*Eggplant in Garlic Sauce____$8.95 <br>
+
+						*String Bean Szechuan Style_$8.95
+
+
+
+					</div>
+					<div class="column col-lg">
+
+						Fried Bean Curd with Mixed Vegetables $8.95 <br>
+
+						Bean Curd with Ginger and Scallion $8.95 <br>
+						<p class="description">Deep fried tofu, stir fried with sliced ginger roots and green onion
+						</p>
+						*Broccoli in Garlic Sauce_____$8.50 <br>
+
+
+						Asparagus Deluxe___________$9.95 <br>
+
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="row" style="">
+
+		<button type="button" data-toggle="collapse" id=""  class="col-sm text-center" data-target="#eggExpand" aria-expanded="true" aria-controls="eggExpand" aria-pressed="true">Egg Foo Young</button>
+		<div class="collapse multi-collapse w-100 mx-4" id="eggExpand">
+			<div class="card card-body w-100 bg-dark">
+				<div class="text-center">Served with a pint of white rice <br></div>
+				<div class="row">
+					<div class="column col-lg">
+
+						Chicken or Pork_____________$8.95 <br>
+
+						Beef or Shrimp______________$9.95
+
+
+
+
+					</div>
+					<div class="column col-lg">
+
+						Vegetable__________________$8.95 <br>
+
+						House_____________________$10.95 <br>
+						<p class="description">Shrimp, chicken, and pork
+						</p>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+
+		<button type="button" data-toggle="collapse" id=""  class="col-sm text-center" data-target="#lunchExpand" aria-expanded="true" aria-controls="lunchExpand" aria-pressed="true">Lunch Specials</button>
+		<div class="collapse multi-collapse w-100 mx-4" id="lunchExpand">
+			<div class="card card-body w-100 bg-dark">
+				<div class="text-center">Served with fried rice and a choice of wonton soup or egg drop soup. <br>
+					From 11:30 am to 3:30 pm <br></div>
+				<div class="row">
+					<div class="column col-lg">
+
+						Chicken or Pork Chow Mein____$7.50 <br>
+
+						*Kung Pao Chicken____________$7.50 <br>
+
+						*Szechuan Chicken____________$7.50 <br>
+
+
+						Chicken with Broccoli________$7.50 <br>
+
+						Moo Goo Gai Pan______________$7.50 <br>
+
+						*Double Cooked Pork_________$7.50 <br>
+
+						Pork Vegetable Deluxe_______$7.50 <br>
+
+						*String Bean Szechuan Style__$7.50 <br>
+
+						Beef or Shrimp Lo Mein_______$7.95 <br>
+
+						*Szechuan Beef______________$7.95 <br>
+
+						Beef Vegetable Deluxe_______$7.95 <br>
+
+						*Kung Pao Shrimp____________$7.95 <br>
+
+						*Szechuan Shrimp____________$7.95 <br>
+
+						Shrimp with Broccoli________$7.95 <br>
+
+						*General Tso's Chicken_______$7.95 <br>
+
+						Fried Chicken Wings (6)_______$7.95
+
+					</div>
+					<div class="column col-lg">
+
+    					Chicken or Pork Lo Mein______$7.50 <br>
+
+    					*Hunan Chicken______________$7.50 <br>
+
+    					Chicken Vegetable Deluxe_____$7.50 <br>
+
+    					Chicken with Cashews_________$7.50 <br>
+
+    					*Hunan Pork_________________$7.50 <br>
+
+    					Sweet and Sour Pork__________$7.50 <br>
+
+    					Vegetable Deluxe____________$7.50 <br>
+
+    					Beef or Shrimp Chop Suey______$7.95 <br>
+
+    					*Hunan Beef_________________$7.95 <br>
+
+    					Beef with Broccoli___________$7.95 <br>
+
+    					Pepper Steak and Onion_______$7.95 <br>
+
+    					*Hunan Shrimp_______________$7.95 <br>
+
+    					Shrimp Vegetable Deluxe______$7.95 <br>
+
+    					House Lo Mein________________$7.95 <br>
+
+    					Sesame Chicken_______________$7.95 <br>
+
+
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="row" style="">
+
+		<button type="button" data-toggle="collapse" id=""  class="col-sm text-center" data-target="#chowchopExpand" aria-expanded="true" aria-controls="chowchopExpand" aria-pressed="true">Chow Mein / Chop Suey</button>
+		<div class="collapse multi-collapse w-100 mx-4" id="chowchopExpand">
+			<div class="card card-body w-100 bg-dark">
+				<div class="text-center">Served with a pint of white rice <br></div>
+
+				<div class="row">
+					<div class="column col-lg">
+
+
+						Chicken or Pork <br>
+						<p class="description">
+						Pint___________________$6.50 <br>
+						Quart_________________$8.95 <br>
+						</p>
+						Beef or Shrimp <br>
+						<p class="description">
+						Pint___________________$6.95 <br>
+						Quart_________________$9.95
+						</p>
+					</div>
+					<div class="column col-lg">
+
+						Vegetable <br>
+						<p class="description">
+						Pint___________________$6.50 <br>
+						Quart_________________$8.95 <br>
+						</p>
+						House  <br>
+						<p class="description">
+							Shrimp, chicken, and pork <br>
+						Pint___________________$7.50 <br>
+						Quart_________________$10.95 <br>
+						</p>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+
+
+		<button type="button" data-toggle="collapse" id=""  class="col-sm text-center" data-target="#friedExpand" aria-expanded="true" aria-controls="friedExpand" aria-pressed="true">Fried Rice</button>
+		<div class="collapse multi-collapse w-100 mx-4" id="friedExpand">
+			<div class="card card-body w-100 bg-dark">
+				<div class="row">
+					<div class="column col-lg">
+					Chicken or Pork <br>
+					<p class="description">
+					Pint___________________$6.50 <br>
+					Quart_________________$8.95 <br>
+					</p>
+					Beef or Shrimp <br>
+					<p class="description">
+					Pint___________________$6.95 <br>
+					Quart_________________$9.95 <br>
+					</p>
+
+					Seafood___________$13.95
+
+				</div>
+				<div class="column col-lg">
+
+					Vegetable <br>
+					<p class="description">
+					Pint___________________$6.50 <br>
+					Quart_________________$8.95 <br>
+					</p>
+					House  <br>
+					<p class="description">
+						Shrimp, chicken, and pork <br>
+					Pint___________________$7.50 <br>
+					Quart_________________$10.95 <br>
+					</p>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row" style="">
+
+		<button type="button" data-toggle="collapse" id=""  class="col-sm text-center" data-target="#noodlesExpand" aria-expanded="true" aria-controls="noodlesExpand" aria-pressed="true">Lo Mein / Rice Noodles</button>
+		<div class="collapse multi-collapse w-100 mx-4" id="noodlesExpand">
+			<div class="card card-body w-100 bg-dark">
+				<div class="text-center">Add $1 for rice noodles<br></div>
+
+				<div class="row">
+					<div class="column col-lg">
+
+						Chicken or Pork____________$8.95 <br>
+
+						Beef or Shrimp_____________$9.95 <br>
+
+						Supreme__________________$12.95 <br>
+						<p class="description">Shrimp, chicken, and scallop
+						</p>
+
+
+					</div>
+					<div class="column col-lg">
+
+						Vegetable_________________$8.95 <br>
+
+						House Combination_________$10.95 <br>
+						<p class="description">Shrimp, chicken, and pork
+						</p><br>
+						*Singapore Style Rice Noodles $12.95 <br>
+						<p class="description">Shrimp, chicken, and pork in a spicy curry sauce
+						</p><br>
+
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<button type="button" data-toggle="collapse" id=""  class="col-sm text-center" data-target="#dinnerExpand" aria-expanded="true" aria-controls="dinnerExpand" aria-pressed="true">Dinner Combinations</button>
+		<div class="collapse multi-collapse w-100 mx-4" id="dinnerExpand">
+			<div class="card card-body w-100 bg-dark">
+				<div class="text-center">Served with an egg roll, pork fried rice, and wonton, egg drop, or hot & sour  soup. <br>
+					Served after 3:30 pm. <br></div>
+				<div class="row">
+					<div class="column col-lg">
+
+						Chicken or Pork Chow Mein____$9.95 <br>
+
+						Shrimp Chow Mein___________$10.50 <br>
+
+						House Lo Mein_______________$10.50 <br>
+
+						*Kung Pao Chicken___________$10.50 <br>
+
+
+						*Sha Cha Chicken____________$10.50 <br>
+
+						Sweet and Sour Chicken______$10.50 <br>
+
+						Moo Goo Gai Pan_____________$10.50 <br>
+
+						*Hunan Pork________________$10.50 <br>
+
+						Sweet and Sour Pork_________$10.50 <br>
+
+						*Beef with Garlic Sauce______$11.50 <br>
+
+						Beef with Mixed Vegetables__$11.50 <br>
+
+						*Shrimp with Hot Sauce______$12.50 <br>
+
+						Chef’s Shrimp_______________$12.50 <br>
+
+						General Tso’s Chicken_______$12.50 <br>
+						<p class="description">Choice of white or dark meat
+						</p>
+
+					</div>
+					<div class="column col-lg">
+
+						Chicken or Pork Lo Mein_____$9.95 <br>
+
+						Shrimp Chow Suey___________$10.50 <br>
+
+						*Hunan Chicken_____________$10.50 <br>
+
+						*Chicken with Garlic Sauce___$10.50 <br>
+
+						*Szechuan Chicken__________$10.50 <br>
+
+						Chicken with Broccoli_______$10.50 <br>
+
+						Chicken with Cashews_______$10.50 <br>
+
+						*Szechuan Pork_____________$10.50 <br>
+
+						*Sha Cha Beef_______________$11.50 <br>
+
+						Beef with Broccoli__________$11.50 <br>
+
+						*Szechuan Shrimp___________$12.50 <br>
+
+
+						*Hunan Shrimp______________$12.50 <br>
+
+						Shrimp with Lobster Sauce___$12.50 <br>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
