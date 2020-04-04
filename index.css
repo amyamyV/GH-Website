@@ -1,71 +1,13 @@
-/*
-///CURRENTLY NOT USED
-#topbox {
-    background-color: rgb(178, 29, 3);
-        height: 20%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-
+.foodpic  {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#leftbox {
-
-    background-color: rgb(251, 225, 164);
-    width: 200px;
-    padding: 25px;
-
+.nav-item:hover {
+    background-color: black;
 }
 
-#hours {
-    font-family: Garamond, serif;
-    font-weight: bold;
-    font-size: 40px;
-    color: black;
-    text-align: left;
-
+#top-container {
+    background: rgb(1,10,34);
+    background: linear-gradient(0deg, rgba(1,10,34,1) -20%, rgba(131,8,8,1) 25%, rgba(161,14,14,1) 67%, rgba(230,22,22,1) 137%);
 }
-
-
-h1 {
-    font-size: 40px;
-    font-weight: bold;
-    color: rgb(251, 225, 164);
-    text-align: left;
-    background-color: rgb(178, 29, 3);
-
-
-}
-h2 {
-    font-size: 30px;
-    font-weight: bold;
-    color: rgb(178, 29, 3);
-    text-align: left;
-
-
-
-}
-h3 {
-    font-size: 30px;
-    font-weight: bold;
-    color: rgb(178, 29, 3);
-    text-align: center;
-    background-color: rgb(251, 225, 164);
-}
-
-h4 {
-    font-size: 40px;
-    font-weight: bold;
-    color: rgb(178, 29, 3);
-    text-align: center;
-    background-color: rgb(251, 225, 164);
-}
-
-
-
-body {
-    font-family: Garamond, serif;
-    background-color: rgb(178, 29, 3);
-    background-size: contain;
-}*/
+ 
