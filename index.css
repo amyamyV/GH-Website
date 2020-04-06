@@ -20,8 +20,8 @@
     border-width: 3px;
     font-size: 15px;
     width: 70vw;
-    max-width: 500px;
-    margin-left: 13vw
+    max-width: 550px;
+    margin-left: 12vw
 }
 
 #dynasty {
@@ -118,7 +118,7 @@
 }
 
 #nav_div{
-    margin-left: 40px;
+    margin-left: 32px;
 }
 
 #nav_bar a {
