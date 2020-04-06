@@ -1,11 +1,11 @@
 #center_text {
-    font-size: 4vw;
+    font-size: 4.8vw;
     text-shadow: 2px 2px black;
     text-align: center
 }
 
 #call_box {
-    font-size: 3vw;
+    font-size: 3.5vw;
     border-color: rgba(53, 52, 48, .8);
     border-style: solid;
     border-width: 4px;
@@ -20,8 +20,8 @@
     border-width: 3px;
     font-size: 15px;
     width: 70vw;
-    max-width: 400px;
-    margin: auto;
+    max-width: 500px;
+    margin-left: 13vw
 }
 
 #dynasty {
@@ -109,7 +109,7 @@
 
 
 #menu_box {
-    font-size: 4vw;
+    font-size: 5vw;
     border-color: rgba(53, 52, 48, .8);
     border-style: solid;
     border-width: 4px;
@@ -118,7 +118,7 @@
 }
 
 #nav_div{
-    margin-left: 60px;
+    margin-left: 40px;
 }
 
 #nav_bar a {
@@ -137,7 +137,7 @@
     opacity: 1.0;
     position: absolute;
     top: 50%;
-    left: 10%
+    left: 5%
 }
 
 #quote_box {
