@@ -33,9 +33,12 @@
     margin: auto;
     line-height: 20px;
     font-size: 14px;
+    background-color: blue
 }
+
 #dyn_pic {
-    margin: auto;
+    left: 20vw;
+    display: contents;
     text-align: center;
 }
 
@@ -87,16 +90,15 @@
 
 #info {
     font-weight: bolder;
-    line-height: 20px;
+    line-height: 30px;
     letter-spacing: 3px;
     padding: 30px;
-    width: 80%
+    width: 80%;
 }
 
 #info_red_box {
     background-color: rgba(117, 2, 8, .8);
     font-size: 15px;
-
 }
 
 #location {
@@ -104,7 +106,6 @@
     font-size: 18px;
     width: fit-content;
     margin: auto;
-
 }
 
 
@@ -147,9 +148,9 @@
 }
 
 #quote_pic {
-    width: 90vw;
+    width: 88vw;
     height: 60vw;
-    max-width: 800px;
+    max-width: 1000px;
     max-height: 600px;
     position: relative;
     opacity: .8;
