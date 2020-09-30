@@ -33,7 +33,6 @@
     margin: auto;
     line-height: 20px;
     font-size: 14px;
-    background-color: blue
 }
 
 #dyn_pic {
@@ -83,22 +82,25 @@
 
 #hours {
     font-size: 12px;
-    background-color: rgba(53, 52, 48, .5);
     width: fit-content;
     margin: auto;
 }
 
 #info {
+    background-color: rgba(117, 2, 8, .8);
+    font-size: 15px;
     font-weight: bolder;
     line-height: 30px;
     letter-spacing: 3px;
     padding: 30px;
-    width: 80%;
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #info_red_box {
-    background-color: rgba(117, 2, 8, .8);
-    font-size: 15px;
+    align-items: center;
+    margin: 4vw;
 }
 
 #location {
