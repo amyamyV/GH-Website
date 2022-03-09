@@ -1,3 +1,7 @@
+#bottom-div {
+    background-color: rgb(0,0,0);
+}
+
 #center_text {
     font-size: 4.8vw;
     text-shadow: 2px 2px black;
@@ -21,7 +25,7 @@
     font-size: 15px;
     width: 70vw;
     max-width: 550px;
-    margin-left: 12vw
+    margin-left: 14vw
 }
 
 #dynasty {
@@ -32,8 +36,11 @@
 
 #dyn_about {
     margin: auto;
-    line-height: 20px;
-    font-size: 14px;
+    line-height: 22px;
+    font-size: 16px;
+    background-color: rgba(222, 213, 189, .1);
+    margin-top: 4vw;
+    box-shadow: 0 0 3px 3px rgba(222, 213, 189, .6);
 }
 
 #dyn_pic {
@@ -59,6 +66,11 @@
     height: 28vw;
     max-width: 300px;
     max-height: 250px
+}
+
+#footer {
+    background-color: rgb(5, 5, 5);
+    height: 40px;
 }
 
 #gh {
@@ -89,7 +101,7 @@
 }
 
 #info {
-    background-color: rgba(117, 2, 8, .8);
+    /* background-color: rgba(117, 2, 8, .8); */
     font-size: 15px;
     font-weight: bolder;
     line-height: 30px;
@@ -97,12 +109,20 @@
     padding: 30px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+}
+
+#info_red_box:before {
+    opacity: 0.3;
 }
 
 #info_red_box {
     align-items: center;
+    background-image: url('photos/threePics.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 #location {
@@ -171,4 +191,15 @@
     width: 100%;
     background-color: rgb(1,10,34);
     background: linear-gradient(0deg, rgba(1,10,34,1) -20%, rgba(131,8,8,1) 25%, rgba(161,14,14,1) 67%, rgba(230,22,22,1) 137%);
+}
+
+#wt_and_two_dish {
+    /* height: 80vw; */
+    width: 100%;
+    /* max-height: 800px; */
+    position: relative;
+    /* opacity: .8; */
+    /* margin: auto; */
+    margin: 0;
+    background-size: contain;
 }
