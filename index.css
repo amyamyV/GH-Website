@@ -1,5 +1,5 @@
 #bottom-div {
-    background-color: rgb(0,0,0);
+
 }
 
 #center_text {
@@ -11,36 +11,23 @@
 #call_box {
     font-size: 3.5vw;
     border-color: rgba(53, 52, 48, .8);
-    border-style: solid;
     border-width: 4px;
     width: fit-content;
     display: inline-block;
-}
-
-#covid_info {
-    color: rgb(238,232,170);
-    border-color: rgb(238,232,170);
-    border-style: solid;
-    border-width: 3px;
-    font-size: 15px;
-    width: 70vw;
-    max-width: 550px;
-    margin-left: 14vw
+    background-color: rgba(252, 215, 215, .05)
 }
 
 #dynasty {
-    background-color: rgba(41, 35, 35);
+    background-color: rgb(247, 242, 235);
     font-weight: bolder;
-    color: rgb(227, 222, 209);
 }
 
 #dyn_about {
     margin: auto;
-    line-height: 22px;
+    line-height: 25px;
     font-size: 16px;
-    background-color: rgba(222, 213, 189, .1);
+    background-color: rgb(247, 242, 235);
     margin-top: 4vw;
-    box-shadow: 0 0 3px 3px rgba(222, 213, 189, .6);
 }
 
 #dyn_pic {
@@ -53,7 +40,7 @@
     opacity: .9;
     border-color: black;
     border-style: solid;
-    border-width: 1vw;
+    border-width: .5vw;
     width: 75vw;
     max-width: 600px;
 }
@@ -74,14 +61,15 @@
 }
 
 #gh {
-    font-size: 28px;
+    font-size: 35px;
     font-weight: bolder;
     text-shadow: 2px 2px rgb(53, 52, 48)
 }
 
 #gh_box {
+    background-color: rgba(53, 52, 48, .2);
     color: rgb(242, 202, 44);
-    font-size: 15px;
+    font-size: 20px;
     margin-top: 12px;
     z-index: 1;
     letter-spacing: 3px;
@@ -106,24 +94,15 @@
     font-weight: bolder;
     line-height: 30px;
     letter-spacing: 3px;
-    padding: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 10vw;
+    padding: 3vw;
     padding-bottom: 10vw;
+    background-color: rgb(250, 249, 247);
 }
 
-#info_red_box:before {
+#info_box:before {
     opacity: 0.3;
 }
 
-#info_red_box {
-    align-items: center;
-    background-image: url('photos/threePics.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-}
 
 #location {
     background-color: rgba(53, 52, 48, .4);
@@ -135,23 +114,22 @@
 
 #menu_box {
     font-size: 5vw;
-    border-color: rgba(53, 52, 48, .8);
-    border-style: solid;
+    border-color: rgba(53, 52, 48, .2);
     border-width: 4px;
     width: fit-content;
     display: inline-block;
+    background-color: rgba(252, 215, 215, .05)
 }
 
 #nav_div{
-    margin-left: 32px;
+    margin-left: 25px;
 }
 
 #nav_bar a {
     background-color: rgba(252, 215, 215, .05);
     color: white;
-    font-size: 15px;
-    margin: .8px;
-    text-decoration: underline;
+    font-size: 22px;
+    margin: 5px;
 }
 
 #quote {
@@ -188,18 +166,16 @@
 #top_container {
     margin: 0px;
     padding: 0px;
+    padding-bottom: 20px;
     width: 100%;
-    background-color: rgb(1,10,34);
     background: linear-gradient(0deg, rgba(1,10,34,1) -20%, rgba(131,8,8,1) 25%, rgba(161,14,14,1) 67%, rgba(230,22,22,1) 137%);
 }
 
 #wt_and_two_dish {
     /* height: 80vw; */
-    width: 100%;
+    width: 70%;
     /* max-height: 800px; */
-    position: relative;
     /* opacity: .8; */
     /* margin: auto; */
-    margin: 0;
     background-size: contain;
 }
